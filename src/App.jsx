@@ -121,9 +121,9 @@ export default function App() {
   const timelineItems = useMemo(
     () => [
       {
-        title: "أول مرة شفتك",
+        title: "  ",
         date: "2026-01-22",
-        text: "اليوم اللي كان من أحلى ساعتين في حياتي وعمري ما هنسى عيونك فيه 🫂",
+        text: " 🫀🌷  عمر ",
       },
       {
         title: "صوتك",
@@ -165,7 +165,7 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    const startDate = new Date("2026-01-22T00:00:00");
+    const startDate = new Date("2025-11-18T00:00:00");
 
     const updateCounter = () => {
       const now = new Date().getTime();
@@ -270,7 +270,7 @@ export default function App() {
           <span>❤</span>
         </div>
         <div className="loader-circle"></div>
-        <h1>جارِ تجهيز أجمل مفاجأة ليك 💖</h1>
+        <h1>جارِ تجهيز أجمل مفاجأة ليك عمر كل سنه وانت طيب💖</h1>
       </div>
     );
   }
@@ -304,10 +304,10 @@ export default function App() {
           <div className="lock-icon">🔐</div>
           <div className="cute-badge">💖 خاص بيك</div>
 
-          <h1>اكتب كلمه السر يا حلو</h1>
+          <h1>اكتب كلمه السر يا بيطتي يصغنون</h1>
 
           <p className="password-subtext">
-            الموقع ده معمول مخصوص عشانك، ومش هيفتح غير لما تكتب كلمة السر ❤️
+            الموقع ده معمول مخصوص عشانك، ومش هيفتح غير لما تكتب كلمة السر ياعمر ❤️
           </p>
 
           <form onSubmit={handleUnlock} className="password-form">
